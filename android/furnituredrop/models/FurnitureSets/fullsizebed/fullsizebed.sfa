@@ -1,0 +1,513 @@
+{
+   materials: [
+         {
+            name: "rest_Footboard",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_FabricBedding_D01",
+               },
+               {
+                  normalMap: "Rest_Footboard_Mattress_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.8,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "table_Top",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_FabricBedding_D01",
+               },
+               {
+                  normalMap: null,
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.8,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "blanket_top",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_fabricPillowB",
+               },
+               {
+                  normalMap: "Blanket_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.7,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "side_panel",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_FabricBedding_D01",
+               },
+               {
+                  normalMap: null,
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.8,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Pillow_F",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "Zebra_D",
+               },
+               {
+                  normalMap: "Pillow_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.7,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Pillow_M",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_fabric_D2",
+               },
+               {
+                  normalMap: "Pillow_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.7,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Pillow_B",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_fabricPillowB",
+               },
+               {
+                  normalMap: "Pillow_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.7,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Metal",
+            parameters: [
+               {
+                  baseColor: [
+                     0.65098,
+                     0.65098,
+                     0.65098,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: null,
+               },
+               {
+                  normalMap: null,
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.2,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Bed_Legs",
+            parameters: [
+               {
+                  baseColor: [
+                     0.71764700000000003,
+                     0.71764700000000003,
+                     0.71764700000000003,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: null,
+               },
+               {
+                  normalMap: null,
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.6,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.4,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Mattress",
+            parameters: [
+               {
+                  baseColor: [
+                     0.58799999999999997,
+                     0.58799999999999997,
+                     0.58799999999999997,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: null,
+               },
+               {
+                  normalMap: "Rest_Footboard_Mattress_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.8,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+            ],
+            source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+         },
+         {
+            name: "Blanket",
+            parameters: [
+               {
+                  baseColor: [
+                     1,
+                     1,
+                     1,
+                     1,
+                  ],
+               },
+               {
+                  baseColorMap: "T_fabric_D2",
+               },
+               {
+                  normalMap: "Blanket_N",
+               },
+               {
+                  interpolatedColor: null,
+               },
+               {
+                  metallic: 0.1,
+               },
+               {
+                  metallicMap: null,
+               },
+               {
+                  roughness: 0.7,
+               },
+               {
+                  roughnessMap: null,
+               },
+               {
+                  reflectance: 0.1,
+               },
+               {
+                  opacity: null,
+               },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "models/FurnitureSets/fullsizebed/fullsizebed.fbx",
+      name: "fullsizebed",
+      scale: 0.01,
+   },
+   samplers: [
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\Zebra_D.jpg",
+         name: "Zebra_D",
+         pipeline_name: "fullsizebed.fbm\\Zebra_D.jpg",
+      },
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\T_FabricBedding_D01.jpg",
+         name: "T_FabricBedding_D01",
+         pipeline_name: "fullsizebed.fbm\\T_FabricBedding_D01.jpg",
+      },
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\Rest_Footboard_Mattress_N.jpg",
+         name: "Rest_Footboard_Mattress_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "fullsizebed.fbm\\Rest_Footboard_Mattress_N.jpg",
+      },
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\T_fabricPillowB.jpg",
+         name: "T_fabricPillowB",
+         pipeline_name: "fullsizebed.fbm\\T_fabricPillowB.jpg",
+      },
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\Pillow_N.jpg",
+         name: "Pillow_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "fullsizebed.fbm\\Pillow_N.jpg",
+      },
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\Blanket_N.jpg",
+         name: "Blanket_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "fullsizebed.fbm\\Blanket_N.jpg",
+      },
+      {
+         file: "models/FurnitureSets/fullsizebed\\fullsizebed.fbm\\T_fabric_D2.jpg",
+         name: "T_fabric_D2",
+         pipeline_name: "fullsizebed.fbm\\T_fabric_D2.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

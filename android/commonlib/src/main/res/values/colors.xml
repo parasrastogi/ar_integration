@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_main">#03497E</color>
+    <color name="blue_dark_main">#093265</color>
+    <color name="blue_dark_main_dark_theme_compatible">#093265</color>
+    <color name="accent">#FF4081</color>
+    <color name="asset_color_1">#0079d2</color>
+    <color name="asset_color_2">#ffce34</color>
+
+    <color name="link_title">#0079d2</color>
+
+    <color name="self_guided_tour">#f89d00</color>
+    <color name="orange_dark">#ff8800</color>
+    <color name="available_lot_bg_color">#FFC107</color>
+    <color name="placeholder_tint">#7aa2c6</color>
+
+    <color name="coach_mark_end_color">#f95942</color>
+    <color name="coach_mark_start_color">#f54865</color>
+
+    <color name="yellow">#e8d37e</color>
+
+    <color name="bg_toolbar">#ffffff</color>
+    <color name="bg_toolbar_below_marshmallow">#f5f5f5</color>
+    <color name="translucent_status_bar">#48000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_light">#ffffff</color>
+
+    <color name="always_white">#ffffff</color>
+    <color name="always_black">#000000</color>
+    <color name="gray_light_always">#bbbbbb</color>
+
+
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray_light_transparent">#aaCCCCCC</color>
+    <color name="gray_dark">#777777</color>
+    <color name="sign_in_or_divider">#444444</color>
+    <color name="gray_text">#777777</color>
+
+    <color name="white_alpha">#CCFFFFFF</color>
+    <color name="bg_add_community_header">#EBEBEB</color>
+
+    <color name="lot_default_background">#C0C0C0</color>
+
+    <color name="schedule_tour_label">#888888</color>
+
+</resources>

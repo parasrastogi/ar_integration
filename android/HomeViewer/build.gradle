@@ -1,0 +1,61 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion Integer.parseInt(project.COMPILE_SDK_VERSION)
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt("24")
+        targetSdkVersion Integer.parseInt("33")
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        debug {
+        }
+        local {
+            initWith debug
+        }
+        dev {
+            initWith debug
+        }
+        stage {
+            initWith debug
+        }
+        production {
+            initWith debug
+        }
+        release {
+            initWith production
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    // Sceneform libraries use language constructs from Java 8.
+    // Add these compile options if targeting minSdkVersion < 26.
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.13.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:$sceneFormVersion"
+
+    api 'com.github.ghost1372:Mzip-Android:0.4.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation project(':commonlib')
+}

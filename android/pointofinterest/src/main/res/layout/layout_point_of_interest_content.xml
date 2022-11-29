@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PointOfInterestActivity"
+    tools:showIn="@layout/activity_poi_activity">
+
+    <com.google.ar.sceneform.ArSceneView
+        android:id="@+id/ar_scene_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top" />
+
+    <View
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_close_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_xsmall"
+        android:layout_marginTop="@dimen/space_normal"
+        android:contentDescription="@null"
+        android:padding="@dimen/space_xsmall"
+        android:src="@drawable/ic_close_screen" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/space_xsmall"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingStart="@dimen/space_xsmall"
+            android:paddingTop="@dimen/space_normal"
+            android:paddingEnd="@dimen/space_xsmall"
+            android:paddingBottom="@dimen/space_xsmall"
+            android:src="@drawable/ic_poi_filter" />
+
+        <ImageView
+            android:id="@+id/iv_refresh_poi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingStart="@dimen/space_xsmall"
+            android:paddingTop="@dimen/space_normal"
+            android:paddingEnd="@dimen/space_xsmall"
+            android:paddingBottom="@dimen/space_xsmall"
+            android:src="@drawable/ic_reload_poi" />
+
+        <ImageView
+            android:id="@+id/iv_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/space_xxsmall"
+            android:paddingTop="@dimen/space_normal"
+            android:paddingEnd="@dimen/space_normal"
+            android:paddingBottom="@dimen/space_xsmall"
+            android:src="@drawable/ic_help" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:alpha="0.6"
+        android:background="@color/always_black"
+        android:gravity="center"
+        android:padding="@dimen/space_small"
+        android:textColor="@color/always_white"
+        android:textSize="@dimen/text_size_normal"
+        android:visibility="gone"
+        tools:text="Hospitals within 10 miles." />
+
+</FrameLayout>

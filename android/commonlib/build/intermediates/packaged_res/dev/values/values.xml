@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_mobile_device">true</bool>
+    <bool name="is_nine_inch">false</bool>
+    <bool name="is_seven_inch">false</bool>
+    <color name="accent">#FF4081</color>
+    <color name="always_black">#000000</color>
+    <color name="always_white">#ffffff</color>
+    <color name="asset_color_1">#0079d2</color>
+    <color name="asset_color_2">#ffce34</color>
+    <color name="available_lot_bg_color">#FFC107</color>
+    <color name="bg_add_community_header">#EBEBEB</color>
+    <color name="bg_light">#ffffff</color>
+    <color name="bg_toolbar">#ffffff</color>
+    <color name="bg_toolbar_below_marshmallow">#f5f5f5</color>
+    <color name="black">#000000</color>
+    <color name="blue_dark_main">#093265</color>
+    <color name="blue_dark_main_dark_theme_compatible">#093265</color>
+    <color name="blue_main">#03497E</color>
+    <color name="coach_mark_end_color">#f95942</color>
+    <color name="coach_mark_start_color">#f54865</color>
+    <color name="gray_dark">#777777</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray_light_always">#bbbbbb</color>
+    <color name="gray_light_transparent">#aaCCCCCC</color>
+    <color name="gray_text">#777777</color>
+    <color name="link_title">#0079d2</color>
+    <color name="lot_default_background">#C0C0C0</color>
+    <color name="orange_dark">#ff8800</color>
+    <color name="placeholder_tint">#7aa2c6</color>
+    <color name="schedule_tour_label">#888888</color>
+    <color name="self_guided_tour">#f89d00</color>
+    <color name="sign_in_or_divider">#444444</color>
+    <color name="translucent_status_bar">#48000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_alpha">#CCFFFFFF</color>
+    <color name="yellow">#e8d37e</color>
+    <dimen name="badge_vertical_padding_normal">4dp</dimen>
+    <dimen name="cluster_padding">8dp</dimen>
+    <dimen name="cluster_text_size">12sp</dimen>
+    <dimen name="communityTileMarginTopInMap">12dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="favorite_plan_description_text_size">13sp</dimen>
+    <dimen name="home_status_radius">4dp</dimen>
+    <dimen name="mpc_disabled_brand_corner_radius">5.25dp</dimen>
+    <dimen name="padding_badge">3dp</dimen>
+    <dimen name="padding_screen">15dp</dimen>
+    <dimen name="padding_section">10dp</dimen>
+    <dimen name="padding_section_half">5dp</dimen>
+    <dimen name="padding_tooltip">4dp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="space_half">0.5dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_normal">16dp</dimen>
+    <dimen name="space_small">12dp</dimen>
+    <dimen name="space_xlarge">24dp</dimen>
+    <dimen name="space_xsmall">8dp</dimen>
+    <dimen name="space_xxlarge">28dp</dimen>
+    <dimen name="space_xxsmall">4dp</dimen>
+    <dimen name="space_xxxlarge">32dp</dimen>
+    <dimen name="space_xxxsmall">2dp</dimen>
+    <dimen name="space_xxxsmall_negative">-2dp</dimen>
+    <dimen name="splash_text_size_title">22sp</dimen>
+    <dimen name="text_size_app_rate_dialog_button">16sp</dimen>
+    <dimen name="text_size_badge">10sp</dimen>
+    <dimen name="text_size_custom_toast">16sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_pre_approved_large">17sp</dimen>
+    <dimen name="text_size_pre_approved_small">15sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_snackbar">16sp</dimen>
+    <dimen name="text_size_tab_large">16sp</dimen>
+    <dimen name="text_size_toolbar">16sp</dimen>
+    <dimen name="text_size_tooltip">14sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <dimen name="text_size_xxlarge">26sp</dimen>
+    <dimen name="text_size_xxsmall">8sp</dimen>
+    <dimen name="text_size_xxxlarge">33sp</dimen>
+    <dimen name="text_size_xxxsmall">6sp</dimen>
+    <dimen name="toolbar_logo_icon_width">70dp</dimen>
+    <dimen name="toolbar_text_size">17sp</dimen>
+    <dimen name="widget_corner_radius">3dp</dimen>
+    <dimen name="widget_corner_radius_small">4dp</dimen>
+    <string name="cancel">Cancel</string>
+    <string name="enter_something">Enter Something</string>
+    <string name="msg_email_not_found_in_apple_auth">Sorry! We couldn\'t get your email id from Facebook. We need an email id to create an account.</string>
+    <string name="msg_email_not_found_in_facebook_auth">Sorry! We couldn\'t get your email id from Facebook. We need an email id to create an account.</string>
+    <string name="msg_email_supported_app_is_not_found">Email supported app not found on device. Please install any email supported app.</string>
+    <string name="msg_facebook_login_error">Couldn\'t connect with Facebook.</string>
+    <string name="msg_no_data_found">No data found.</string>
+    <string name="msg_no_network">Please check your internet connection and try again.</string>
+    <string name="msg_on_loading">Loading…</string>
+    <string name="msg_on_loading_failed">Data loading failed.</string>
+    <string name="msg_placeholder_view_loading_data">Loading…</string>
+    <string name="msg_placeholder_view_loading_failed">Loading failed</string>
+    <string name="msg_placeholder_view_no_data_found">No data found</string>
+    <string name="msg_something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="msg_timeout">Please check your internet connection and try again.</string>
+    <string name="ok">Ok</string>
+    <string name="or">or</string>
+    <string name="page_counter_separator">/</string>
+    <string name="read_less">Read less</string>
+    <string name="read_more">Read more</string>
+    <string name="retry">Retry</string>
+    <string name="title">Title</string>
+    <string name="warning_location_denied">%s does not have access to your location. To enable access, tap Settings > Location.</string>
+    <declare-styleable name="OptionsTabBarView">
+        <attr format="integer" name="selectedTabIndex"/>
+
+        <attr format="reference" name="firstTabIconResId"/>
+        <attr format="reference" name="secondTabIconResId"/>
+        <attr format="reference" name="thirdTabIconResId"/>
+
+        <attr format="string" name="firstTabLabelResId"/>
+        <attr format="string" name="secondTabLabelResId"/>
+        <attr format="string" name="thirdTabLabelResId"/>
+
+        <attr format="integer" name="selectedTabLabelColor"/>
+        <attr format="integer" name="unselectedTabLabelColor"/>
+
+        <attr format="integer" name="selectedTabTintColor"/>
+        <attr format="integer" name="unselectedTabTintColor"/>
+
+        <attr format="integer" name="firstTabBackgroundColor"/>
+        <attr format="integer" name="secondTabBackgroundColor"/>
+        <attr format="integer" name="thirdTabBackgroundColor"/>
+
+    </declare-styleable>
+    <declare-styleable name="PlaceholderView">
+        <attr format="reference" name="error_drawable"/>
+        <attr format="reference" name="placeholder_action_drawable"/>
+        <attr format="reference" name="placeholder_action_drawable_tint"/>
+        <attr format="string" name="placeholder_action_message"/>
+        <attr format="reference" name="placeholder_action_secondary"/>
+        <attr format="color" name="placeholder_action_secondary_tint"/>
+        <attr format="color" name="placeholder_text_color"/>
+        <attr format="string" name="placeholder_position"/>
+        <attr format="dimension" name="placeholder_text_size"/>
+        <attr format="reference" name="placeholder_background"/>
+    </declare-styleable>
+    <declare-styleable name="ReadMoreTextView">
+        <attr format="string" name="trimExpandedText"/>
+        <attr format="string" name="trimCollapsedText"/>
+        <attr format="integer" name="trimLength"/>
+        <attr format="boolean" name="showTrimExpandedText"/>
+        <attr format="color" name="colorClickableText"/>
+        <attr format="integer" name="trimLines"/>
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0"/>
+            <enum name="trimModeLength" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

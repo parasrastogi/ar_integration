@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeasureActivity">
+
+    <fragment
+        android:id="@+id/ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_normal"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="@dimen/space_normal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/space_normal"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_drop_down"
+            android:gravity="center_vertical"
+            android:padding="@dimen/space_small"
+            android:text="@string/tap_on_info"
+            android:textColor="@color/always_white"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_measure_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_drop_down"
+                android:drawableEnd="@drawable/ic_expand_arrow"
+                android:drawablePadding="@dimen/space_small"
+                android:gravity="center_vertical"
+                android:minEms="9"
+                android:padding="@dimen/space_small"
+                android:text="@string/inches"
+                android:textColor="@color/always_white"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/ll_measure_units"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_drop_down_bottom"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/space_xsmall"
+                android:paddingEnd="@dimen/space_xsmall"
+                android:visibility="invisible">
+
+                <View
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/always_white" />
+
+                <TextView
+                    android:id="@+id/tv_centimeter"
+                    style="@style/RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:gravity="start|center_vertical"
+                    android:paddingTop="@dimen/space_small"
+                    android:paddingBottom="@dimen/space_small"
+                    android:text="@string/centimeters"
+                    android:textColor="@color/always_white"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/tv_inch"
+                    style="@style/RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_green_tick"
+                    android:gravity="start|center_vertical"
+                    android:paddingTop="@dimen/space_small"
+                    android:paddingBottom="@dimen/space_small"
+                    android:text="@string/inches"
+                    android:textColor="@color/always_white"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/tv_meter"
+                    style="@style/RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:paddingTop="@dimen/space_small"
+                    android:paddingBottom="@dimen/space_normal"
+                    android:text="@string/meters"
+                    android:textColor="@color/always_white"
+                    android:textSize="@dimen/text_size_small" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/center_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_pointer"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/space_large"
+        android:src="@drawable/ic_start_measure"
+        android:visibility="gone" />
+
+    <ToggleButton
+        android:id="@+id/continue_mode_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_measure"
+        android:layout_marginStart="@dimen/space_small"
+        android:layout_marginBottom="@dimen/space_small"
+        android:checked="false"
+        android:textOff="@string/line_continue_off"
+        android:textOn="@string/line_continue_on"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:text="Line continue" />
+
+    <View
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_close_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/space_xsmall"
+        android:layout_marginTop="@dimen/space_small"
+        android:padding="@dimen/space_xsmall"
+        android:src="@drawable/ic_close_screen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small"
+        android:layout_toStartOf="@+id/iv_help"
+        android:layout_toEndOf="@+id/iv_close_screen"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/space_xsmall"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/space_xsmall"
+            android:src="@drawable/ic_undo"
+            android:visibility="invisible" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/space_xsmall"
+            android:src="@drawable/ic_clear"
+            android:visibility="invisible" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_xsmall"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/space_small"
+        android:layout_marginEnd="@dimen/space_xsmall"
+        android:padding="@dimen/space_xsmall"
+        android:src="@drawable/ic_help" />
+
+</RelativeLayout>

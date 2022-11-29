@@ -1,0 +1,936 @@
+{
+materials: [
+      {
+         name: "Bed_rest&ottoman",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "rest_table",
+            },
+            {
+               normalMap: "BedRest_Ottoman",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "side_rest",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "side_rest",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Pillow_B",
+         parameters: [
+            {
+               baseColor: [
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: "Pillow_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.7,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Pillow_M",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "houndstooth",
+            },
+            {
+               normalMap: "Pillow_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.7,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Pillow_F",
+         parameters: [
+            {
+               baseColor: [
+                  0.22352900000000001,
+                  0.22352900000000001,
+                  0.22352900000000001,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: "Pillow_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.7,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Pillow_F01",
+         parameters: [
+            {
+               baseColor: [
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.7,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Blanket_01",
+         parameters: [
+            {
+               baseColor: [
+                  0.76862799999999998,
+                  0.76862799999999998,
+                  0.76862799999999998,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: "blanket_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Mattress",
+         parameters: [
+            {
+               baseColor: [
+                  0.13333300000000001,
+                  0.13333300000000001,
+                  0.13333300000000001,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: "Mattress_Panel_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Blanket_02",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "houndstooth",
+            },
+            {
+               normalMap: "blanket_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Side_PanelBed",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "panel_baked",
+            },
+            {
+               normalMap: "Mattress_Panel_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Mat",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "carpet1",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "LampDome",
+         parameters: [
+            {
+               baseColor: [
+                  0.090195999999999998,
+                  0.090195999999999998,
+                  0.090195999999999998,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.3,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.6,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Lamp_Border",
+         parameters: [
+            {
+               baseColor: [
+                  0.031372999999999998,
+                  0.031372999999999998,
+                  0.031372999999999998,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Lamp_Metal",
+         parameters: [
+            {
+               baseColor: [
+                  0.45097999999999999,
+                  0.29411799999999999,
+                  0.21568599999999999,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Lamp_Lathe",
+         parameters: [
+            {
+               baseColor: [
+                  0.32941199999999998,
+                  0.32941199999999998,
+                  0.32941199999999998,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.8,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Lamp_Stand",
+         parameters: [
+            {
+               baseColor: [
+                  0.066667000000000004,
+                  0.066667000000000004,
+                  0.066667000000000004,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.8,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Side_Table",
+         parameters: [
+            {
+               baseColor: [
+                  0.050979999999999998,
+                  0.050979999999999998,
+                  0.050979999999999998,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.8,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Side_Table_Chrome",
+         parameters: [
+            {
+               baseColor: [
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "matress_White",
+         parameters: [
+            {
+               baseColor: [
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  0.58799999999999997,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: "Mattress_Panel_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Blanket_Border",
+         parameters: [
+            {
+               baseColor: [
+                  0.12548999999999999,
+                  0.12548999999999999,
+                  0.12548999999999999,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: "blanket_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "rest_back",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "rest_table",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "models/FurnitureSets/queensizebed/queensizebed.fbx",
+      name: "queensizebed",
+      scale: 0.01,
+   },
+   samplers: [
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\rest_table.jpg",
+         name: "rest_table",
+         pipeline_name: "queensizebed.fbm\\rest_table.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\Pillow_N.jpg",
+         name: "Pillow_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "queensizebed.fbm\\Pillow_N.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\BedRest_Ottoman.jpg",
+         name: "BedRest_Ottoman",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "queensizebed.fbm\\BedRest_Ottoman.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\side_rest.jpg",
+         name: "side_rest",
+         pipeline_name: "queensizebed.fbm\\side_rest.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\houndstooth.jpg",
+         name: "houndstooth",
+         pipeline_name: "queensizebed.fbm\\houndstooth.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\carpet1.jpg",
+         name: "carpet1",
+         pipeline_name: "queensizebed.fbm\\carpet1.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\blanket_N.jpg",
+         name: "blanket_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "queensizebed.fbm\\blanket_N.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\panel_baked.jpg",
+         name: "panel_baked",
+         pipeline_name: "queensizebed.fbm\\panel_baked.jpg",
+      },
+      {
+         file: "models/FurnitureSets/queensizebed\\queensizebed.fbm\\Mattress_Panel_N.jpg",
+         name: "Mattress_Panel_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "queensizebed.fbm\\Mattress_Panel_N.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

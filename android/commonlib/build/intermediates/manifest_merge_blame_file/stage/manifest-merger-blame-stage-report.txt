@@ -1,0 +1,22 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bhi.commonlib" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNETE" />
+9-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:4:5-68
+9-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:4:22-65
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:5:5-79
+10-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:5:22-76
+11
+12    <application>
+12-->/Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:7:5-10:19
+13    </application>
+14
+15</manifest>

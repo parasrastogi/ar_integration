@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_screen">15dp</dimen>
+    <dimen name="padding_section">10dp</dimen>
+    <dimen name="padding_section_half">5dp</dimen>
+
+    <dimen name="text_size_xxxsmall">6sp</dimen>
+    <dimen name="text_size_xxsmall">8sp</dimen>
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">26sp</dimen>
+    <dimen name="text_size_xxxlarge">33sp</dimen>
+
+    <dimen name="text_size_toolbar">16sp</dimen>
+
+    <dimen name="text_size_tab_large">16sp</dimen>
+
+    <dimen name="toolbar_text_size">17sp</dimen>
+    <dimen name="widget_corner_radius">3dp</dimen>
+    <dimen name="widget_corner_radius_small">4dp</dimen>
+
+    <dimen name="splash_text_size_title">22sp</dimen>
+
+    <dimen name="space_half">0.5dp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="space_xxxsmall_negative">-2dp</dimen>
+    <dimen name="space_xxxsmall">2dp</dimen>
+    <dimen name="space_xxsmall">4dp</dimen>
+    <dimen name="space_xsmall">8dp</dimen>
+    <dimen name="space_small">12dp</dimen>
+    <dimen name="space_normal">16dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_xlarge">24dp</dimen>
+    <dimen name="space_xxlarge">28dp</dimen>
+    <dimen name="space_xxxlarge">32dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="toolbar_logo_icon_width">70dp</dimen>
+    <dimen name="communityTileMarginTopInMap">12dp</dimen>
+
+    <dimen name="dp_2">2dp</dimen>
+
+    <dimen name="cluster_padding">8dp</dimen>
+    <dimen name="cluster_text_size">12sp</dimen>
+    <dimen name="text_size_snackbar">16sp</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="text_size_app_rate_dialog_button">16sp</dimen>
+
+    <dimen name="text_size_custom_toast">16sp</dimen>
+    <dimen name="badge_vertical_padding_normal">4dp</dimen>
+    <dimen name="favorite_plan_description_text_size">13sp</dimen>
+    <dimen name="padding_badge">3dp</dimen>
+    <dimen name="text_size_badge">10sp</dimen>
+    <dimen name="home_status_radius">4dp</dimen>
+    <dimen name="mpc_disabled_brand_corner_radius">5.25dp</dimen>
+
+    <dimen name="text_size_tooltip">14sp</dimen>
+    <dimen name="padding_tooltip">4dp</dimen>
+    <dimen name="text_size_pre_approved_small">15sp</dimen>
+    <dimen name="text_size_pre_approved_large">17sp</dimen>
+
+
+</resources>

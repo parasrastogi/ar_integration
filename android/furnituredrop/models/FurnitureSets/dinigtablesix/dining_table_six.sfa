@@ -1,0 +1,119 @@
+{
+   materials: [
+      {
+         name: "Table_Top",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "Dining_Tablesix_wooden",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.2,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.5,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "dining_chair",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "dining_legs_chairsix",
+            },
+            {
+               normalMap: "Dining_Chairsix_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Color",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "models/FurnitureSets/dinigtablesix/dining_table_six.fbx",
+      name: "dining_table_six",
+      scale: 0.01,
+   },
+   samplers: [
+      {
+         file: "models/FurnitureSets/dinigtablesix\\dining_table_six.fbm\\Dining_Tablesix_wooden.jpg",
+         name: "Dining_Tablesix_wooden",
+         pipeline_name: "dining_table_six.fbm\\Dining_Tablesix_wooden.jpg",
+      },
+      {
+         file: "models/FurnitureSets/dinigtablesix\\dining_table_six.fbm\\dining_legs_chairsix.jpg",
+         name: "dining_legs_chairsix",
+         pipeline_name: "dining_table_six.fbm\\dining_legs_chairsix.jpg",
+      },
+      {
+         file: "models/FurnitureSets/dinigtablesix\\dining_table_six.fbm\\Dining_Chairsix_N.jpg",
+         name: "Dining_Chairsix_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "dining_table_six.fbm\\Dining_Chairsix_N.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

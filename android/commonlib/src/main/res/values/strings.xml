@@ -1,0 +1,27 @@
+<resources>
+    <string name="msg_timeout">Please check your internet connection and try again.</string>
+    <string name="msg_no_network">Please check your internet connection and try again.</string>
+    <string name="msg_email_supported_app_is_not_found">Email supported app not found on device. Please install any email supported app.</string>
+    <string name="title">Title</string>
+    <string name="enter_something">Enter Something</string>
+    <string name="msg_on_loading">Loading…</string>
+    <string name="msg_on_loading_failed">Data loading failed.</string>
+    <string name="msg_no_data_found">No data found.</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="msg_facebook_login_error">Couldn\'t connect with Facebook.</string>
+    <string name="msg_email_not_found_in_facebook_auth">Sorry! We couldn\'t get your email id from Facebook. We need an email id to create an account.</string>
+    <string name="msg_email_not_found_in_apple_auth">Sorry! We couldn\'t get your email id from Facebook. We need an email id to create an account.</string>
+    <string name="msg_something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="page_counter_separator">/</string>
+
+    <string name="read_more">Read more</string>
+    <string name="read_less">Read less</string>
+    <string name="or">or</string>
+    <string name="msg_placeholder_view_loading_data">Loading…</string>
+    <string name="msg_placeholder_view_loading_failed">Loading failed</string>
+    <string name="msg_placeholder_view_no_data_found">No data found</string>
+
+    <string name="warning_location_denied">%s does not have access to your location. To enable access, tap Settings > Location.</string>
+    <string name="ok">Ok</string>
+</resources>

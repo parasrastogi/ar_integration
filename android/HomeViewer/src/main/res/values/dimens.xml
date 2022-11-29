@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<resources>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="furniture_thumb_size">120dp</dimen>
+    <dimen name="furniture_item_height">210dp</dimen>
+    <dimen name="header_height">65dp</dimen>
+    <dimen name="option_sheet_title_height">56dp</dimen>
+    <dimen name="half_option_sheet_title_height">28dp</dimen>
+    <dimen name="furniture_sheet_peek_height">120dp</dimen>
+
+    <dimen name="size_selected_furniture">70dp</dimen>
+    <dimen name="corner_radius_small">4dp</dimen>
+</resources>

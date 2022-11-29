@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_helper_dialog_title">50dp</dimen>
+    <dimen name="poi_name_text_size">12sp</dimen>
+    <dimen name="poi_distance_text_size">12sp</dimen>
+
+</resources>

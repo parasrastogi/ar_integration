@@ -1,0 +1,29 @@
+<resources>
+    <string name="tap_on_info">Tap on start button to measure</string>
+    <string name="line_continue_off">Line continue off</string>
+    <string name="line_continue_on">Line continue on</string>
+
+    <string name="last_measurement_value">Last measurement = %s</string>
+
+    <string name="centimeters_value">%.2f cms</string>
+    <string name="inches_value">%.2f inch</string>
+    <string name="feet_and_inches_value">%dft %.2fin</string>
+    <string name="meters_value">%.2f meters</string>
+
+    <string name="meters">Meters</string>
+    <string name="inches">Inches</string>
+    <string name="clear">Clear</string>
+    <string name="centimeters">Centimeters</string>
+
+    <string name="msg_start_measure_help">Tap on it to START measurement and set pointer in center, then move the screen.</string>
+    <string name="msg_stop_measure_help">Show after Start, Tap on it to STOP measurement, then drag the pointer.</string>
+    <string name="msg_undo_help">UNDO your measurements.</string>
+    <string name="msg_clear_all_help">CLEAR all your measurements.</string>
+    <string name="msg_help_button_help">HELP button will show this tooltip, anytime you need help.</string>
+    <string name="ok_got_it">OK, Got it</string>
+    <string name="cm">CM</string>
+    <string name="dont_show_this_again">Don\'t show this again</string>
+    <string name="room_measurement">Room Measurement</string>
+    <string name="msg_room_measurement_description">Quickly measure the distance between any 2 points in your new home.</string>
+
+</resources>

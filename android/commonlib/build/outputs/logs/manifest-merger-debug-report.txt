@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNETE
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml:7:5-10:19
+uses-sdk
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/commonlib/src/main/AndroidManifest.xml

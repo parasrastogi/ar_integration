@@ -1,0 +1,21 @@
+<resources>
+    <string name="add">+</string>
+    <string name="furniture">Furniture</string>
+    <string name="furniture_set">Furniture sets</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="msg_furniture_drop_app_error">We\'re facing some difficulty. Please close and re-open this app again.</string>
+    <string name="clear">Clear</string>
+    <string name="msg_ar_furniture_app_launch_permission_rejected">Please provide all required permissions to use Furniture Drop AR tool.</string>
+    <string name="msg_ar_furniture_screenshot_success">Screenshot saved in gallery.</string>
+    <string name="msg_furniture_app_screenshot_permission_rejected">Can\'t take screenshot without having required permissions.</string>
+    <string name="ar_tools_help">AR Tools Help</string>
+    <string name="msg_help">Help button will show this tooltip, anytime you need help.</string>
+    <string name="msg_add_furniture_help">This will show a list of 3d furniture models, select an item from the list to add model in your environment.</string>
+    <string name="ok_got_it">OK, Got it</string>
+    <string name="msg_screenshot_help">Take a screenshot, this will be saved in your phone gallery.</string>
+    <string name="msg_delete_furniture_help">Tap on a furniture and click on this icon to remove furniture from screen.</string>
+    <string name="msg_clear_all_furniture_help">Remove all displaying furniture sets.</string>
+    <string name="furniture_drop">Furniture Drop</string>
+    <string name="msg_furniture_drop_description">Select a furniture item and arrange it within any room in your home.</string>
+    <string name="dont_show_this_again">Don\'t show this again</string>
+</resources>

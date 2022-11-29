@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:7:22-78
+uses-feature#android.hardware.camera.ar
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:14:9-50
+application
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:17:5-40:19
+	android:supportsRtl
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:18:9-36
+	android:theme
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:22:9-40
+meta-data#com.google.ar.core
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:24:9-26:40
+	android:value
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:25:13-46
+activity#com.app.homeViewer.fileDownload.FileDownloadActivity
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:28:9-32:72
+	android:screenOrientation
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:31:13-49
+	android:configChanges
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:30:13-103
+	android:theme
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:32:13-69
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:29:13-62
+activity#com.app.homeViewer.HomeViewerActivity
+ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:34:9-38:72
+	android:screenOrientation
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:37:13-49
+	android:configChanges
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:36:13-103
+	android:theme
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml:35:13-47
+uses-sdk
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+		ADDED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/prastogi/developer/android/builderhomesiteinc-newhomesource-android-064b46263dfb/HomeViewer/src/main/AndroidManifest.xml

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlaceholderView">
+        <attr name="error_drawable" format="reference" />
+        <attr name="placeholder_action_drawable" format="reference" />
+        <attr name="placeholder_action_drawable_tint" format="reference" />
+        <attr name="placeholder_action_message" format="string" />
+        <attr name="placeholder_action_secondary" format="reference" />
+        <attr name="placeholder_action_secondary_tint" format="color" />
+        <attr name="placeholder_text_color" format="color" />
+        <attr name="placeholder_position" format="string" />
+        <attr name="placeholder_text_size" format="dimension" />
+        <attr name="placeholder_background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ReadMoreTextView">
+        <attr name="trimExpandedText" format="string" />
+        <attr name="trimCollapsedText" format="string" />
+        <attr name="trimLength" format="integer" />
+        <attr name="showTrimExpandedText" format="boolean" />
+        <attr name="colorClickableText" format="color" />
+        <attr name="trimLines" format="integer" />
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0" />
+            <enum name="trimModeLength" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="OptionsTabBarView">
+        <attr name="selectedTabIndex" format="integer" />
+
+        <attr name="firstTabIconResId" format="reference" />
+        <attr name="secondTabIconResId" format="reference" />
+        <attr name="thirdTabIconResId" format="reference" />
+
+        <attr name="firstTabLabelResId" format="string" />
+        <attr name="secondTabLabelResId" format="string" />
+        <attr name="thirdTabLabelResId" format="string" />
+
+        <attr name="selectedTabLabelColor" format="integer" />
+        <attr name="unselectedTabLabelColor" format="integer" />
+
+        <attr name="selectedTabTintColor" format="integer" />
+        <attr name="unselectedTabTintColor" format="integer" />
+
+        <attr name="firstTabBackgroundColor" format="integer" />
+        <attr name="secondTabBackgroundColor" format="integer" />
+        <attr name="thirdTabBackgroundColor" format="integer" />
+
+    </declare-styleable>
+
+</resources>

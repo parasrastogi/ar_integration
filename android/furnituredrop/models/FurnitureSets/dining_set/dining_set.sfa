@@ -1,0 +1,242 @@
+{
+   materials: [
+      {
+         name: "Table_Top",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "dining_table_top",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.3,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "dining_chair",
+         parameters: [
+            {
+               baseColor: [
+                  2,
+                  2,
+                  2,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "dining_legs_chair_bullet",
+            },
+            {
+               normalMap: "Dining_Chair_N",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.7,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "dining_legs_chair",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "dining_legs_chair_bullet",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.2,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.4,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.3,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "dining_table_cloth",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "dining_table_top",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.7,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Table_Top_wooden",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "dining_table_top",
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.6,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Color",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "models/FurnitureSets/dining_set/dining_set.fbx",
+      name: "dining_set",
+      scale: 0.01,
+        },
+   samplers: [
+      {
+         file: "models/FurnitureSets/dining_set\\dining_set.fbm\\Dining_Chair_N.jpg",
+         name: "Dining_Chair_N",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "dining_set.fbm\\Dining_Chair_N.jpg",
+      },
+      {
+         file: "models/FurnitureSets/dining_set\\dining_set.fbm\\dining_legs_chair_bullet.jpg",
+         name: "dining_legs_chair_bullet",
+         pipeline_name: "dining_set.fbm\\dining_legs_chair_bullet.jpg",
+      },
+      {
+         file: "models/FurnitureSets/dining_set\\dining_set.fbm\\dining_table_top.jpg",
+         name: "dining_table_top",
+         pipeline_name: "dining_set.fbm\\dining_table_top.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

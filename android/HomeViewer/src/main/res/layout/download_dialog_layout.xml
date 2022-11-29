@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_small"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xsmall"
+            android:gravity="center_horizontal"
+            android:text="@string/msg_downloading_home"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <ProgressBar
+            android:id="@+id/pb_download_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_large"
+            android:indeterminateTint="@color/black"
+            android:max="100"
+            android:progressTint="@color/black" />
+
+        <TextView
+            android:id="@+id/txv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/space_xxsmall"
+            android:paddingStart="@dimen/space_normal"
+            android:paddingTop="@dimen/space_xsmall"
+            android:paddingEnd="@dimen/space_normal"
+            android:paddingBottom="@dimen/space_xsmall"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

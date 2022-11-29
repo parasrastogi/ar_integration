@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/tooltip" />
+    <corners
+        android:topLeftRadius="@dimen/space_xsmall"
+        android:topRightRadius="@dimen/space_xsmall" />
+</shape>

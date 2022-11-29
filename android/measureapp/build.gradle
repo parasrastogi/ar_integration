@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion Integer.parseInt("33")
+    defaultConfig {
+        minSdkVersion Integer.parseInt("24")
+        targetSdkVersion Integer.parseInt("33")
+
+        ndk {
+            /*
+             * Sceneform is available for the following ABIs: arm64-v8a, armv7a,
+             * x86_64 and x86. This sample app enables arm64-v8a to run on
+             * devices and x86 to run on the emulator. Your application should
+             * list the ABIs most appropriate to minimize APK size (arm64-v8a recommended).
+             */
+            abiFilters 'arm64-v8a', 'x86'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        debug {
+        }
+        local {
+            initWith debug
+        }
+        dev {
+            initWith debug
+        }
+        stage {
+            initWith debug
+        }
+        production {
+            initWith debug
+        }
+        release {
+            initWith production
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.10.0"
+    //noinspection GradleCompatible
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+    implementation project(':commonlib')
+}
+
+apply plugin: 'com.google.ar.sceneform.plugin'

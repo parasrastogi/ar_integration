@@ -1,0 +1,30 @@
+<resources>
+    <string name="points_of_interest">Points of Interest</string>
+    <string name="msg_fetching_point_of_interests" formatted="false">Fetching %s points within %d mile…</string>
+    <string name="msg_detecting_your_location">Detecting world and location.\nPlease move around to calibrate.</string>
+    <string name="pick_your_interest">Pick your interest</string>
+    <string name="choose_radius">Choose radius</string>
+    <string name="msg_location_not_enabled_for_poi">Please turn on location access from Settings to see point of interests.</string>
+    <string name="msg_network_location_not_enabled_for_poi">Please choose appropriate location mode to allow location access via network from Settings to see point of interests.</string>
+
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="ok_got_it">OK, Got it</string>
+    <string name="msg_help">Help button will show this tooltip, anytime you need help.</string>
+    <string name="msg_filter_help">Tap on this to see filter options for point of interests.</string>
+    <string name="msg_permission_rejection_for_poi">Please provide all required permissions to view nearby point of interests.</string>
+    <string name="dont_show_this_again">Don\'t show this again</string>
+    <string name="msg_poi_description">View key locations around your new home.</string>
+    <string name="msg_no_poi_result">No point of interest found.</string>
+    <string name="msg_no_nearby_poi_available">No nearby %s available.</string>
+
+    <plurals name="radius_miles">
+        <item quantity="one">%d Mile</item>
+        <item quantity="other">%d Miles</item>
+    </plurals>
+
+    <plurals name="poi_type_and_radius">
+        <item quantity="one">%s points within %d Mile</item>
+        <item quantity="other">%s points within %d Miles</item>
+    </plurals>
+
+</resources>

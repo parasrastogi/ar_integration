@@ -1,0 +1,439 @@
+{
+   materials: [
+      {
+         name: "Table",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "living_table",
+            },
+            {
+               normalMap: "living_table_n",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.2,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.6,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Sofa_Base",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "livingsofa_base_lam_sidetable",
+            },
+            {
+               normalMap: "livingsofa_base_lam_sidetable_n",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.8,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "cusions",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "cusion_legs_panel",
+            },
+            {
+               normalMap: "cusion_legs_panel_n",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.6,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "seating",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "living_sofa_seating",
+            },
+            {
+               normalMap: "living_sofa_seating_n",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.9,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "Lamp_Bulb",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.3,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.2,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "metal_lamp",
+         parameters: [
+            {
+               baseColor: [
+                  0.019608,
+                  0.019608,
+                  0.019608,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "lamp_dome",
+         parameters: [
+            {
+               baseColor: [
+                  0.090195999999999998,
+                  0.090195999999999998,
+                  0.090195999999999998,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: null,
+            },
+            {
+               normalMap: null,
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.5,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "side_table_legs",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "cusion_legs_panel",
+            },
+            {
+               normalMap: "cusion_legs_panel_n",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 0.2,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.4,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+      {
+         name: "sidetable_top",
+         parameters: [
+            {
+               baseColor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColorMap: "livingsofa_base_lam_sidetable",
+            },
+            {
+               normalMap: "livingsofa_base_lam_sidetable_n",
+            },
+            {
+               interpolatedColor: null,
+            },
+            {
+               metallic: 1,
+            },
+            {
+               metallicMap: null,
+            },
+            {
+               roughness: 0.3,
+            },
+            {
+               roughnessMap: null,
+            },
+            {
+               reflectance: 0.1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/fbx_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "models/FurnitureSets/livingarea/living_area.fbx",
+      name: "living_area",
+      scale: 0.0099659999999999992,
+   },
+   samplers: [
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\livingsofa_base_lam_sidetable_n.jpg",
+         name: "livingsofa_base_lam_sidetable_n",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "living_area.fbm\\livingsofa_base_lam_sidetable_n.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\living_table.jpg",
+         name: "living_table",
+         pipeline_name: "living_area.fbm\\living_table.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\living_sofa_seating.jpg",
+         name: "living_sofa_seating",
+         pipeline_name: "living_area.fbm\\living_sofa_seating.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\living_table_n.jpg",
+         name: "living_table_n",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "living_area.fbm\\living_table_n.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\livingsofa_base_lam_sidetable.jpg",
+         name: "livingsofa_base_lam_sidetable",
+         pipeline_name: "living_area.fbm\\livingsofa_base_lam_sidetable.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\cusion_legs_panel.jpg",
+         name: "cusion_legs_panel",
+         pipeline_name: "living_area.fbm\\cusion_legs_panel.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\cusion_legs_panel_n.jpg",
+         name: "cusion_legs_panel_n",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "living_area.fbm\\cusion_legs_panel_n.jpg",
+      },
+      {
+         file: "models/FurnitureSets/livingarea\\living_area.fbm\\living_sofa_seating_n.jpg",
+         name: "living_sofa_seating_n",
+         params: {
+            usage_type: "Normal",
+         },
+         pipeline_name: "living_area.fbm\\living_sofa_seating_n.jpg",
+      },
+   ],
+   version: "0.51:1",
+}

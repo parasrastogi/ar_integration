@@ -1,0 +1,111 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion Integer.parseInt("33")
+    defaultConfig {
+        minSdkVersion Integer.parseInt("24")
+        targetSdkVersion Integer.parseInt("33")
+
+        vectorDrawables.useSupportLibrary = true
+
+        manifestPlaceholders
+    }
+    buildTypes {
+        debug {
+            //Extra Include
+            buildConfigField "String", 'BASE_URL', '"http://salesarchitect-build.bhitest.com"'
+            buildConfigField "String", 'BASE_NHS_WEB_URL', '"https://sprint.newhomesource.com"'
+            buildConfigField "String", 'BASE_NHS_ODE_API_URL', '"http://sprint-ode-api.newhomesource.com"'
+            buildConfigField "String", 'LEARNING_CENTER_URL', '"https://www.newhomesource.com/learn"'
+            buildConfigField "String", 'BDX_AUTH_API_BASE_URL', '"http://build-auth-api.newhomesource.com"'
+        }
+        local {
+            buildConfigField "String", 'BASE_URL', '"http://nhnxlamppost.com"'
+            buildConfigField "String", 'BASE_NHS_WEB_URL', '"https://sprint.newhomesource.com"'
+            buildConfigField "String", 'BASE_NHS_ODE_API_URL', '"http://sprint-ode-api.newhomesource.com"'
+            buildConfigField "String", 'LEARNING_CENTER_URL', '"https://www.newhomesource.com/learn"'
+
+            //Extra Include
+            buildConfigField "String", 'BDX_AUTH_API_BASE_URL', '"http://build-auth-api.newhomesource.com"'
+        }
+        dev {
+            buildConfigField "String", 'BASE_URL', '"http://salesarchitect-build.bhitest.com"'
+            buildConfigField "String", 'BASE_NHS_WEB_URL', '"https://sprint.newhomesource.com"'
+            buildConfigField "String", 'BASE_NHS_ODE_API_URL', '"http://sprint-ode-api.newhomesource.com"'
+            buildConfigField "String", 'LEARNING_CENTER_URL', '"https://www.newhomesource.com/learn"'
+            buildConfigField "String", 'BDX_AUTH_API_BASE_URL', '"http://build-auth-api.newhomesource.com"'
+        }
+        stage {
+            buildConfigField "String", 'BASE_URL', '"https://salesarchitect-stage.exsquared.com"'
+            buildConfigField "String", 'BASE_NHS_WEB_URL', '"https://stage.newhomesource.com"'
+            buildConfigField "String", 'BASE_NHS_ODE_API_URL', '"https://test-od-api.newhomesource.com"'
+            buildConfigField "String", 'LEARNING_CENTER_URL', '"https://stage.newhomesource.com/learn"'
+            buildConfigField "String", 'BDX_AUTH_API_BASE_URL', '"http://stage-auth-api.newhomesource.com"'
+        }
+        production {
+            buildConfigField "String", 'BASE_URL', '"https://salesarchitect.exsquared.com"'
+            buildConfigField "String", 'BASE_NHS_WEB_URL', '"https://newhomesource.com"'
+            buildConfigField "String", 'BASE_NHS_ODE_API_URL', '"https://od-api.newhomesource.com"'
+            buildConfigField "String", 'LEARNING_CENTER_URL', '"https://www.newhomesource.com/learn"'
+            buildConfigField "String", 'BDX_AUTH_API_BASE_URL', '"http://auth-api.newhomesource.com"'
+        }
+        release {
+            initWith production
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.test.espresso.idling:idling-net:3.4.0'
+    api 'androidx.appcompat:appcompat:1.4.1'
+    api 'androidx.recyclerview:recyclerview:1.2.1'
+    api 'androidx.constraintlayout:constraintlayout:2.1.3'
+    api 'com.google.code.gson:gson:2.8.8'
+    api 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    api 'com.myvolley:MyVolley:1.1.0'
+    api 'com.android.volley:volley:1.2.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api 'androidx.legacy:legacy-support-v13:1.0.0'
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.exifinterface:exifinterface:1.3.3'
+    implementation 'com.facebook.android:facebook-android-sdk:13.0.0'
+    api 'info.hoang8f:android-segmented:1.0.6'
+    api 'com.google.android.material:material:1.5.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.3'
+    api 'com.jakewharton.timber:timber:4.7.1'
+    api 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+    api 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    api 'androidx.preference:preference-ktx:1.2.0'
+    api "androidx.fragment:fragment-ktx:1.4.1"
+    api "com.google.android.gms:play-services-location:19.0.1"
+/*//Chucker simplifies the inspection of HTTP(S) requests/responses
+    devImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
+     implementation("com.squareup.okhttp3:okhttp:4.9.3")*/
+    implementation "com.github.skydoves:balloon:1.3.6"
+
+    // For Java
+    implementation 'androidx.work:work-runtime:2.7.1'
+
+    // For Kotlin
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+}
+
+repositories {
+    mavenCentral()
+}

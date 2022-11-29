@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_slideshow_page_counter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/space_xsmall"
+    android:layout_marginBottom="@dimen/space_xxsmall">
+
+    <TextView
+        android:id="@+id/tv_current_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/asset_color_1"
+        android:textSize="@dimen/text_size_normal"
+        tools:text="11" />
+
+    <TextView
+        android:id="@+id/txv_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_counter_separator"
+        android:textColor="@color/asset_color_1"
+        android:textSize="@dimen/text_size_normal" />
+
+    <TextView
+        android:id="@+id/tv_total_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/asset_color_1"
+        android:textSize="@dimen/text_size_normal"
+        tools:text="11" />
+
+</LinearLayout>
